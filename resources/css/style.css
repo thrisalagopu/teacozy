@@ -1,0 +1,164 @@
+/* Universal Styles */
+
+body{
+  display: block;
+  background-color: black;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+  margin: auto;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 5;
+}
+
+/* header section */
+
+header{
+  display: flex;
+  position: fixed;
+  background-color: black;
+  align-items: center;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  z-index: 10;
+  justify-content: space-between;
+}
+
+/* Logo */
+
+.logo{
+  height: 50px;
+  padding-left: 10px;
+  z-index: 10;
+}
+
+.logo img{
+  width: 150px;
+}
+
+/* Navigation */
+
+a{
+  text-decoration: underline;
+  color: seashell;
+}
+
+nav span{
+  display: inline-block;
+  padding-right: 20px;
+
+}
+
+/* Mission Section */
+
+#mission{
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  margin-top: 69px;
+  opacity: 0.9;
+}
+
+#mission .text-content{
+  display: block;
+  background-color: black;
+  width: 1200px;
+  margin: auto;
+  font-weight: bold;
+  padding: 0;
+}
+.text-content h2,h4{
+  margin: 10px;
+}
+
+/* Featured Tea Section */
+
+.tea-of-the-month{
+  display: block;
+  width: 1000px;
+  margin: 69px;
+}
+
+.tea-of-the-month .text-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.tea-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea-item{
+  display: block;
+  margin-right: 30px;
+  margin-top: 20px;
+}
+
+.tea-item .image-content{
+  height: 200px;
+  width: 300px;
+  margin: auto;
+}
+.tea-item h4{
+  margin-top: 10px;
+
+}
+
+/* Locations Section */
+
+.location{
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  justify-content: center;
+  padding-bottom: 75px;
+}
+
+.location-title h2{
+  margin-bottom: 15px;
+}
+
+.location-branch{
+  display: flex;
+  justify-content: center;
+
+}
+.branch-item{
+  display: block;
+  background-color: black;
+  width: 300px;
+  height: 250px;
+  margin-right: 40px;
+  opacity: 1;
+}
+#no-margin{
+  margin-right: 0px;
+}
+
+/* Contact Us Section */
+
+.contact{
+  display: block;
+  height: 200px;
+}
+
+/* Footer Section */
+#copyright{
+  text-align: left;
+  margin-left: 20px;
+}
